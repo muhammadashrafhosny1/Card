@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.card {
+  border: 5px solid #000;
+}
+
+.card-header {
+  text-align: center;
+  background-color: #eee;
+}
+
+.card-header,
+.card-details,
+.card-list {
+  text-transform: uppercase;
+}
+
+.card-details .card-price p strong {
+  font-size: 1.5em;
+}
+
+.card-details .card-price span {
+  color: #555;
+  font-size: 0.8em;
+}
+
+.card-description,
+.card-description a:link {
+  color: #222;
+  font-weight: 600;
+}
+
+.card-list ul {
+  list-style: square;
+}
+
+footer button {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em;
+  border: none;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background-color: #555;
+  color: #fff;
+}
